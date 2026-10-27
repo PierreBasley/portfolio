@@ -1,0 +1,47 @@
+{
+  "version": 10,
+  "scope": "Accueil : monogramme PB et première capture de Forum.",
+  "home_checks": [
+    {
+      "width": 320,
+      "monogram": "PB",
+      "forum_cover": "capture originale",
+      "overflow": false,
+      "focus": "visible"
+    },
+    {
+      "width": 390,
+      "monogram": "PB",
+      "forum_cover": "capture originale",
+      "overflow": false,
+      "focus": "visible"
+    },
+    {
+      "width": 768,
+      "monogram": "PB",
+      "forum_cover": "capture originale",
+      "overflow": false,
+      "focus": "visible"
+    },
+    {
+      "width": 1440,
+      "monogram": "PB",
+      "forum_cover": "capture originale",
+      "overflow": false,
+      "focus": "visible"
+    }
+  ],
+  "forum_cover_sha256": "2108382d2468682e060dbdd45778041fa8045f3db423ad48828b1c3547e67245",
+  "previous_validation": {
+    "version": 9,
+    "commit": "994c91d47768d0852be7e116c11d6f258af9143d",
+    "pages": 5,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ]
+  },
+  "limits": "Contrôles visuels et de navigation de la maquette."
+}

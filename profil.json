@@ -1,0 +1,109 @@
+{
+  "name": "Pierre Basley",
+  "headline": "Développeur en formation",
+  "current_focus": "Développement full stack",
+  "professional_orientations": [
+    "DevOps",
+    "Ingénierie IA"
+  ],
+  "email": "pierrebasley14@gmail.com",
+  "github_profile_url": "https://github.com/PierreBasley",
+  "cv": {
+    "path": "assets/cv/pierre-basley-cv.pdf",
+    "source_filename": "CV_Pierre_BASLEY_2026.pdf",
+    "size_bytes": 88760
+  },
+  "apprenticeship": {
+    "availability": "Mai 2027",
+    "rhythm": "Temps plein",
+    "duration": "2 ans d’alternance"
+  },
+  "location": "Rouen",
+  "mobility": {
+    "licence": "Permis B",
+    "personal_vehicle": true,
+    "areas": [
+      "Métropole de Rouen",
+      "Agglomération du Havre",
+      "Agglomération de Caen",
+      "Ville de Paris"
+    ]
+  },
+  "education": [
+    {
+      "title": "Concepteur développeur d’applications",
+      "institution": "Zone01 Rouen",
+      "start": "2026-05",
+      "end": null,
+      "status": "en cours"
+    },
+    {
+      "title": "Master 2 professionnel — Études socio-économiques et aménagement du territoire",
+      "institution": "Université de Caen Normandie",
+      "start": "2015",
+      "end": "2017"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Chargé de stratégie foncière",
+      "organisation": "Métropole Rouen Normandie",
+      "start": "2023-05",
+      "end": "2026-05"
+    },
+    {
+      "title": "Chargé de développement économique",
+      "organisation": "Communauté d’agglomération Seine-Eure",
+      "start": "2017",
+      "end": "2023"
+    }
+  ],
+  "skills": {
+    "evidence_level": "Compétences issues du CV et des précisions de Pierre. Les réalisations documentent Go, HTML, CSS, SQLite, JavaScript, Git, Docker et Postman ; Discord est ajouté à partir de sa demande. La provenance reste indiquée dans SOURCES.md et projets.json.",
+    "frontend": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "server_languages": [
+      "Go",
+      "JavaScript",
+      "Rust",
+      "C",
+      "C++",
+      "C#",
+      "PHP"
+    ],
+    "relational_databases": [
+      "SQL",
+      "SQLite",
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "Linux Ubuntu",
+      "Terminal Bash",
+      "Visual Studio Code",
+      "Postman",
+      "Discord"
+    ]
+  },
+  "languages": [
+    {
+      "name": "Anglais",
+      "level": "B2",
+      "source": "CV"
+    },
+    {
+      "name": "Portugais",
+      "level": "A2",
+      "source": "CV"
+    }
+  ],
+  "sources": [
+    "Messages utilisateur et précisions sur les projets",
+    "CV_Pierre_BASLEY_2026.pdf"
+  ]
+}

@@ -1,0 +1,428 @@
+[
+  {
+    "id": "forum",
+    "title": "Forum",
+    "summary": "Un espace d’échanges et d’entraide entre développeurs de tout niveau.",
+    "mode": "collectif",
+    "status": "finalisé à 90 %",
+    "date": null,
+    "context": "Forum est un projet étudiant réalisé en groupe. Son objectif est de créer un espace où des développeurs de tout niveau peuvent présenter un problème et solliciter l’aide des autres membres.",
+    "features_available": [
+      "Publier un problème ou une question et préciser les stacks concernées.",
+      "Répondre aux posts des autres membres.",
+      "Voter pour un post ou une réponse afin d’exprimer l’appréciation de la communauté sur sa pertinence.",
+      "Rechercher les publications avec une barre de recherche et des filtres par sujet et par stack."
+    ],
+    "technologies": [
+      "Go",
+      "HTML",
+      "CSS",
+      "SQLite",
+      "Git",
+      "Docker"
+    ],
+    "technologies_pending": null,
+    "personal_contribution": "Chef de projet : gestion des versions et organisation des tâches. Participation au développement du back-end. Réalisation des pages front-end et du webdesign. Mise en place du système de sessions.",
+    "coauthors": [
+      {
+        "name": "Abdou CHERIF HONO DIGO",
+        "url": null
+      },
+      {
+        "name": "Yohann FEDAOUI",
+        "url": null
+      },
+      {
+        "name": "Hicham HEE",
+        "url": null
+      }
+    ],
+    "coauthors_pending": null,
+    "challenge": "1. Choisir une base de données adaptée à un projet étudiant. 2. Gérer les sessions des membres. 3. Protéger les mots de passe enregistrés.",
+    "solution": "1. Utilisation de SQLite, adaptée aux besoins du projet étudiant. 2. Mise en place d’un gestionnaire de sessions côté serveur, avec des fichiers JSON. 3. Hachage des mots de passe avec bcrypt avant leur stockage dans la base de données.",
+    "result": "Le forum permet aux membres de communiquer et de s’entraider autour de leurs questions de développement.",
+    "future_improvements": [
+      "Mettre en place un système de modération.",
+      "Ajouter une authentification via OAuth2.",
+      "Proposer un profil membre plus complet."
+    ],
+    "media": [
+      {
+        "src": "assets/projets/forum/accueil.png",
+        "width": 1254,
+        "height": 940,
+        "alt": "Accueil de Forum avec la présentation de l’entraide entre développeurs et la liste de publications encore vide.",
+        "caption": "La page d’accueil présente le forum et l’accès aux publications.",
+        "original_filename": "Capture d’écran du 2026-10-27 16-10-05.png",
+        "source": "forum.zip",
+        "sha256": "2108382d2468682e060dbdd45778041fa8045f3db423ad48828b1c3547e67245"
+      },
+      {
+        "src": "assets/projets/forum/post-reponses.png",
+        "width": 1254,
+        "height": 940,
+        "alt": "Post de démonstration dans Forum, avec les commandes de vote et une zone de réponses encore vide.",
+        "caption": "Un post de démonstration, les commandes de vote et la zone réservée aux réponses.",
+        "original_filename": "Capture d’écran du 2026-10-27 16-16-31.png",
+        "source": "forum.zip",
+        "sha256": "2cc0341a381f5c00f344569a99d979fa33ec14dc4d7ea3bf1f50ee381202c18f"
+      },
+      {
+        "src": "assets/projets/forum/publier-question.png",
+        "width": 1244,
+        "height": 893,
+        "alt": "Formulaire de publication d’une question dans Forum, avec le titre, la description du problème et les technologies concernées.",
+        "caption": "Le formulaire permet de décrire un problème et de sélectionner les technologies concernées.",
+        "original_filename": "Capture d’écran du 2026-10-27 16-17-28.png",
+        "source": "forum.zip",
+        "sha256": "55118fe117ec6cd6f3bb28c393a88d3f3c947ea1c71f9f5a9124549b7f1fd1cb"
+      }
+    ],
+    "repository_url": null,
+    "demo_url": null,
+    "sources": [
+      "Message utilisateur initial",
+      "Message utilisateur : précisions des projets",
+      "Message utilisateur : fiche détaillée et avancement de Forum",
+      "Archive jointe forum.zip : trois captures originales consultées"
+    ],
+    "content_status": "documenté ; date et liens non fournis",
+    "category": "projet étudiant",
+    "presentation_group": "realisations",
+    "technologies_source": "Message utilisateur : fiche détaillée du projet Forum",
+    "evidence_note": "Fonctionnalités, contributions, choix techniques et avancement déclarés par Pierre Basley ; trois captures originales de forum.zip consultées. Le code et la sécurité du programme n’ont pas été audités. Le post de démonstration visible sur une capture ne constitue pas une mesure d’usage.",
+    "status_note": "Avancement déclaré par Pierre Basley ; il ne s’agit pas d’une mesure indépendante ni d’un projet achevé à 100 %.",
+    "personal_contributions": [
+      "Chef de projet : gestion des versions et organisation des tâches.",
+      "Participation au développement du back-end.",
+      "Réalisation des pages front-end et du webdesign.",
+      "Mise en place du système de sessions."
+    ],
+    "challenges": [
+      {
+        "problem": "Choisir une base de données adaptée à un projet étudiant.",
+        "solution": "Utilisation de SQLite, adaptée aux besoins du projet étudiant."
+      },
+      {
+        "problem": "Gérer les sessions des membres.",
+        "solution": "Mise en place d’un gestionnaire de sessions côté serveur, avec des fichiers JSON."
+      },
+      {
+        "problem": "Protéger les mots de passe enregistrés.",
+        "solution": "Hachage des mots de passe avec bcrypt avant leur stockage dans la base de données."
+      }
+    ],
+    "media_status": "intégrés"
+  },
+  {
+    "id": "serveur",
+    "title": "Groupie Tracker",
+    "summary": "Un site d’information sur les artistes et groupes de musique, alimenté par une API REST.",
+    "mode": "collectif",
+    "status": "finalisé",
+    "date": "2026-08",
+    "context": "Groupie Tracker est un projet étudiant réalisé en groupe. Le site communique avec une API REST pour présenter des informations sur des artistes et groupes de musique, leurs concerts, dates et lieux.",
+    "features_available": [
+      "Afficher les informations d’artistes et de groupes de musique issues d’une API REST.",
+      "Consulter les concerts, leurs dates et leurs lieux.",
+      "Géolocaliser les lieux de concert via l’API Google Maps.",
+      "Rechercher des informations de manière dynamique avec une barre de recherche et un système de filtrage.",
+      "Actualiser périodiquement les données grâce à une communication dynamique avec l’API."
+    ],
+    "technologies": [
+      "Go",
+      "HTML",
+      "CSS",
+      "Git",
+      "Postman"
+    ],
+    "technologies_pending": null,
+    "personal_contribution": "Chef de projet : gestion des versions et organisation du projet. Réalisation du back-end et des routeurs. Mise en place d’une communication dynamique avec l’API pour récupérer les données JSON. Participation à la conception des pages HTML.",
+    "coauthors": [
+      {
+        "name": "Léo GIFFARD",
+        "url": null
+      },
+      {
+        "name": "Alexis FOURNY",
+        "url": null
+      }
+    ],
+    "coauthors_pending": "[À COMPLÉTER : liens des coauteurs, si fournis]",
+    "challenge": "1. La consultation des informations des artistes entraînait des appels systématiques à l’API. 2. Prendre en compte les changements dans l’API, comme le retrait d’un artiste ou l’ajout de dates de concert.",
+    "solution": "1. Création de deux objets côté serveur pour conserver l’ensemble des données JSON des artistes dans des variables internes au serveur. 2. Création d’un système de rafraîchissement périodique des données par requêtes à l’API.",
+    "result": "Un site agréable à prendre en main et réactif aux demandes de l’utilisateur, les données étant stockées en interne par le serveur.",
+    "future_improvements": [],
+    "media": [
+      {
+        "src": "assets/projets/groupie-tracker/catalogue-accueil.png",
+        "width": 1335,
+        "height": 962,
+        "alt": "Catalogue d’artistes de Groupie Tracker avec sa barre de recherche.",
+        "caption": "Vue du catalogue d’artistes et de la barre de recherche.",
+        "original_filename": "Capture d’écran du 2026-10-26 09-58-43.png",
+        "source": "image groupie tracker.zip",
+        "sha256": "9263ea4acc0bda17803744510bd68fb1d4f1dc81f9422aec13573bdef620e79b"
+      },
+      {
+        "src": "assets/projets/groupie-tracker/fiche-genesis.png",
+        "width": 1335,
+        "height": 936,
+        "alt": "Fiche Genesis dans Groupie Tracker, avec les membres du groupe et les dates et lieux de concerts.",
+        "caption": "Les informations de Genesis, ses membres et les dates et lieux de concerts.",
+        "original_filename": "Capture d’écran du 2026-10-26 09-59-50.png",
+        "source": "image groupie tracker.zip",
+        "sha256": "ead7ebaf91991ec43426a9d33817f5695dd6d429a0df57e29ff38acf1db6a541"
+      },
+      {
+        "src": "assets/projets/groupie-tracker/catalogue-suite.png",
+        "width": 1335,
+        "height": 962,
+        "alt": "Suite du catalogue de Groupie Tracker, avec les cartes d’artistes et de groupes.",
+        "caption": "Une autre vue du catalogue et des cartes d’artistes et de groupes.",
+        "original_filename": "Capture d’écran du 2026-10-26 09-58-57.png",
+        "source": "image groupie tracker.zip",
+        "sha256": "d3e4542bb6814e7a98de8b4792281efba93bbb41be53b9aeb4b7aaba395fdfe2"
+      }
+    ],
+    "repository_url": null,
+    "demo_url": null,
+    "sources": [
+      "Message utilisateur initial",
+      "Message utilisateur : précisions des projets",
+      "Message utilisateur : fiche détaillée de Groupie Tracker",
+      "Archive jointe image groupie tracker.zip : trois captures originales"
+    ],
+    "content_status": "documenté ; liens non fournis",
+    "category": "projet étudiant",
+    "presentation_group": "realisations",
+    "technologies_source": "Messages utilisateur : précisions et fiche détaillée de Groupie Tracker",
+    "evidence_note": "Informations et appréciation du résultat déclarées par Pierre Basley ; captures originales fournies dans le ZIP et consultées ; code du projet non audité.",
+    "personal_contributions": [
+      "Chef de projet : gestion des versions et organisation du projet.",
+      "Réalisation du back-end et des routeurs.",
+      "Mise en place d’une communication dynamique avec l’API pour récupérer les données JSON.",
+      "Participation à la conception des pages HTML."
+    ],
+    "challenges": [
+      {
+        "problem": "La consultation des informations des artistes entraînait des appels systématiques à l’API.",
+        "solution": "Création de deux objets côté serveur pour conserver l’ensemble des données JSON des artistes dans des variables internes au serveur"
+      },
+      {
+        "problem": "Prendre en compte les changements dans l’API, comme le retrait d’un artiste ou l’ajout de dates de concert.",
+        "solution": "Création d’un système de rafraîchissement périodique des données par requêtes à l’API."
+      }
+    ],
+    "result_note": "Appréciation qualitative fournie par Pierre Basley ; aucune mesure de performance n’a été communiquée.",
+    "future_improvements_note": "Projet finalisé ; aucune évolution annoncée.",
+    "media_status": "intégrés"
+  },
+  {
+    "id": "ascii",
+    "title": "ASCII-ART",
+    "summary": "Un site simple pour transformer un texte en ASCII-ART et télécharger le résultat.",
+    "mode": "collectif",
+    "status": "finalisé",
+    "date": "2026-07",
+    "context": "ASCII-ART est un projet étudiant de site internet, réalisé en groupe. Il permet à l’utilisateur de transformer un texte en ASCII-ART avec le template de son choix (standard, shadow ou thinkertoy) et même de télécharger le résultat sous format txt, markdown et html.",
+    "features_available": [
+      "Saisir un texte et le transformer en ASCII-ART.",
+      "Choisir parmi trois templates : standard, shadow et thinkertoy.",
+      "Télécharger le résultat aux formats TXT, Markdown et HTML."
+    ],
+    "technologies": [
+      "Go",
+      "HTML",
+      "CSS",
+      "Git"
+    ],
+    "technologies_pending": null,
+    "personal_contribution": "Création du serveur et des routes. Réalisation du système de conversion du texte en ASCII-ART. Sécurisation du programme lors du traitement des requêtes HTTP.",
+    "coauthors": [
+      {
+        "name": "Maxime FEDAOUI",
+        "url": null
+      },
+      {
+        "name": "Amélie LEMATELOT",
+        "url": null
+      }
+    ],
+    "coauthors_pending": "[À COMPLÉTER : liens des coauteurs, si fournis]",
+    "challenge": "Convertir les caractères ASCII du texte saisi en caractères ASCII-ART.",
+    "solution": "Stocker les caractères ASCII-ART dans des fichiers texte lus par le serveur.",
+    "result": "Exemple de rendu ASCII-ART fourni par Pierre.",
+    "future_improvements": [],
+    "media": [
+      {
+        "src": "assets/projets/ascii-art/rendu-salut.png",
+        "width": 1335,
+        "height": 926,
+        "alt": "Interface ASCII-ART affichant le mot Salut converti et une option de téléchargement.",
+        "caption": "Exemple de rendu « Salut » et accès au téléchargement du résultat.",
+        "original_filename": "Capture d’écran du 2026-10-26 12-52-36.png",
+        "source": "AsciiArt.zip",
+        "sha256": "c5a0be672cdc84bfd1cc8ffd10cf18ef0761af3881fe1645cfb4054c0ae9ea8c"
+      },
+      {
+        "src": "assets/projets/ascii-art/accueil.png",
+        "width": 1335,
+        "height": 926,
+        "alt": "Interface ASCII-ART avec une zone de saisie, trois choix de modèle et un bouton de génération.",
+        "caption": "La zone de saisie et les trois modèles proposés : standard, shadow et thinkertoy.",
+        "original_filename": "Capture d’écran du 2026-10-26 12-52-17.png",
+        "source": "AsciiArt.zip",
+        "sha256": "fbb55d47384bf8a8c14c451a6bba8df1fd3fbc2d200d0876af7d9699c2e1e7f5"
+      },
+      {
+        "src": "assets/projets/ascii-art/rendu-hello-world.png",
+        "width": 1335,
+        "height": 926,
+        "alt": "Interface ASCII-ART affichant un rendu du texte Hello world.",
+        "caption": "Un autre exemple de texte transformé en ASCII-ART.",
+        "original_filename": "Capture d’écran du 2026-10-26 12-53-22.png",
+        "source": "AsciiArt.zip",
+        "sha256": "579208c8f32e3d05c4ba86303afe90c3e4a22e1270965a48c8462f2333122eca"
+      },
+      {
+        "src": "assets/projets/ascii-art/rendu-caracteres.png",
+        "width": 1335,
+        "height": 926,
+        "alt": "Interface ASCII-ART présentant un rendu en caractères et l’option de téléchargement.",
+        "caption": "Un exemple de rendu composé de caractères, avec l’action de téléchargement.",
+        "original_filename": "Capture d’écran du 2026-10-26 12-54-11.png",
+        "source": "AsciiArt.zip",
+        "sha256": "a135c037d56660b9f4e072b2c74fa60d5954a3c4b37ed9ae88cc76f3df3e4885"
+      }
+    ],
+    "repository_url": null,
+    "demo_url": null,
+    "sources": [
+      "Message utilisateur initial",
+      "Message utilisateur : précisions des projets",
+      "Message utilisateur : fiche détaillée du projet ASCII-ART et exemple de rendu textuel",
+      "Archive AsciiArt.zip : quatre captures originales consultées"
+    ],
+    "content_status": "à_compléter_liens",
+    "category": "projet étudiant",
+    "presentation_group": "realisations",
+    "technologies_source": "Message utilisateur : fiche détaillée du projet ASCII-ART",
+    "evidence_note": "Informations déclarées par Pierre Basley et quatre captures originales consultées dans l’archive AsciiArt.zip ; code du projet non consulté. Les captures illustrent des rendus sans permettre d’attribuer un template précis à chacun.",
+    "personal_contributions": [
+      "Création du serveur et des routes.",
+      "Réalisation du système de conversion du texte en ASCII-ART.",
+      "Sécurisation du programme lors du traitement des requêtes HTTP."
+    ],
+    "challenges": [
+      {
+        "problem": "Convertir les caractères ASCII du texte saisi en caractères ASCII-ART.",
+        "solution": "Stocker les caractères ASCII-ART dans des fichiers texte lus par le serveur."
+      }
+    ],
+    "future_improvements_note": "Projet finalisé ; aucune évolution annoncée.",
+    "media_status": "intégrés",
+    "result_example": {
+      "text": "Un exemple",
+      "output": " _    _                                                          _\n| |  | |                                                        | |\n| |  | |  _ __           ___  __  __   ___   _ __ ___    _ __   | |   ___\n| |  | | | '_ \\         / _ \\ \\ \\/ /  / _ \\ | '_ ` _ \\  | '_ \\  | |  / _ \\\n| |__| | | | | |       |  __/  >  <  |  __/ | | | | | | | |_) | | | |  __/\n \\____/  |_| |_|        \\___| /_/\\_\\  \\___| |_| |_| |_| | .__/  |_|  \\___|\n                                                       | |\n                                                       |_|",
+      "download_src": "assets/projets/ascii-art/exemple.txt",
+      "source": "Exemple textuel fourni par Pierre dans son message"
+    }
+  },
+  {
+    "id": "coach",
+    "title": "Coach Go",
+    "summary": "Un prototype personnel pour apprendre Go en écrivant et en testant des fonctions, à son rythme.",
+    "mode": "personnel",
+    "status": "prototype",
+    "date": null,
+    "context": "Coach Go est un projet personnel de programme, encore au stade de prototype. L’objectif est d’entraîner l’utilisateur à écrire des fonctions en Go, des premières notions de programmation jusqu’à des mécanismes plus complexes, tout en travaillant l’algorithmique, la programmation modulaire et la méthode, à son rythme.",
+    "features_available": [
+      "Un fonctionnement local, sans connexion à Internet, sous Linux Debian.",
+      "Une interface graphique de prototype réalisée avec Wails.",
+      "Un éditeur de code CodeMirror intégré, avec ses dépendances installées.",
+      "Un premier palier disponible, avec un seul exercice : écrire la fonction Ajuster.",
+      "Une vérification de la réponse par des tests unitaires."
+    ],
+    "technologies": [
+      "Go",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Wails",
+      "JavaScript"
+    ],
+    "technologies_pending": null,
+    "personal_contribution": "Développeur solo du prototype.",
+    "coauthors": [],
+    "coauthors_pending": null,
+    "challenge": null,
+    "solution": null,
+    "result": "Le prototype permet de lire l’énoncé de l’exercice Ajuster, de coder la fonction dans l’éditeur CodeMirror et de lancer la vérification par des tests unitaires. Tout fonctionne localement sous Linux Debian. À ce stade, un seul exercice est disponible, dans le premier palier.",
+    "future_improvements": [
+      "Définir complètement le premier palier : notions abordées et niveau de difficulté.",
+      "Créer d’autres exercices pour le premier palier.",
+      "Réajuster la charte graphique vers un style inspiré de Go."
+    ],
+    "media": [
+      {
+        "src": "assets/projets/coach-go/accueil.png",
+        "width": 3076,
+        "height": 1695,
+        "alt": "Page d’accueil de Coach Go présentant le principe d’apprentissage et l’accès aux exercices.",
+        "caption": "L’accueil présente le principe du programme et donne accès à l’entraînement.",
+        "original_filename": "Capture d’écran du 2026-10-26 21-24-05.png",
+        "source": "coach-golang.zip",
+        "sha256": "2e1482faa1198f87fbc04e3d4affe5b71165dab9eaa03a19d8c81cc4b8e02bdb"
+      },
+      {
+        "src": "assets/projets/coach-go/palier-1.png",
+        "width": 3076,
+        "height": 1695,
+        "alt": "Écran des paliers de Coach Go, avec le premier palier disponible et les suivants indiqués à venir.",
+        "caption": "Le premier palier est disponible ; les autres restent à construire.",
+        "original_filename": "Capture d’écran du 2026-10-26 21-24-33.png",
+        "source": "coach-golang.zip",
+        "sha256": "f586f6b6388f3c3405e6cdb725e4c271cd34be8795ae7a47acf650e3c821d1bf"
+      },
+      {
+        "src": "assets/projets/coach-go/exercice-ajuster.png",
+        "width": 3076,
+        "height": 1695,
+        "alt": "Exercice Ajuster dans Coach Go : énoncé à gauche, éditeur de fonction Go à droite et bouton Vérifier ma réponse.",
+        "caption": "L’exercice « Ajuster un entier » réunit l’énoncé, l’éditeur de code et l’action de vérification.",
+        "original_filename": "Capture d’écran du 2026-10-26 21-27-10.png",
+        "source": "coach-golang.zip",
+        "sha256": "7298d533cec2afe91ea1135d22255242bec5eccfec5ed67fecfa8958068c1027"
+      }
+    ],
+    "repository_url": null,
+    "demo_url": null,
+    "sources": [
+      "Message utilisateur initial",
+      "Message utilisateur : précisions des projets",
+      "Message utilisateur : avancement et fonctionnalités du prototype Coach Go",
+      "Archive jointe coach-golang.zip : trois captures originales consultées"
+    ],
+    "content_status": "documenté ; date et liens non fournis",
+    "category": "projet personnel",
+    "presentation_group": "en_preparation",
+    "technologies_source": "Message utilisateur : avancement du prototype Coach Go",
+    "evidence_note": "Fonctionnalités, technologies et environnement déclarés par Pierre Basley ; trois captures originales fournies dans coach-golang.zip et consultées. Le programme et son code n’ont pas été audités.",
+    "learning_language": "Go",
+    "editor": "CodeMirror",
+    "environment": "Linux Debian",
+    "execution_mode": "local, sans connexion à Internet",
+    "available_levels": [
+      1
+    ],
+    "available_exercises": [
+      "Ajuster"
+    ],
+    "personal_contributions": [
+      "Développement du prototype en solo."
+    ],
+    "challenges": [],
+    "media_status": "intégrés"
+  }
+]

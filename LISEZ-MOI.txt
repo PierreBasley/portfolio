@@ -1,0 +1,78 @@
+PORTFOLIO PIERRE BASLEY — MAQUETTE UX/UI, VERSION 10
+
+Commencer par maquette-pierre-basley.pdf ou index.html.
+Pour Forum, ouvrir projet-forum.html ; pour Groupie Tracker, projet-serveur.html ;
+pour ASCII-ART, projet-ascii.html ; pour Coach Go, projet-coach.html.
+Lire NOTICE.md avant tout développement.
+
+Trois sections : Projets, Parcours et Contact.
+Les cartes de stacks affichent uniquement nom et monogramme, sans liens projet ni mention « Dans mon CV ».
+Leur provenance reste dans les données et SOURCES.md. Les outils incluent Postman et Discord.
+Les langues indiquent anglais B2 — intermédiaire avancé et portugais A2 — initié.
+Le bloc d’orientations est retiré ; l’introduction présente Pierre en formation, avec le full stack comme parcours actuel.
+Le récit « Une nouvelle voie… » et la chronologie sont retirés de l’accueil.
+La localisation et la mobilité ne sont plus affichées sur l’accueil. Le bouton e-mail reste actif sans adresse répétée.
+Les informations retirées de la présentation restent documentées dans les sources et le CV lorsqu’elles y figurent.
+Les pieds de page n’affichent plus la mention « maquette » ; cette livraison demeure un prototype statique.
+Les trois projets étudiants sont mis en avant ; Coach Go garde un encart distinct comme prototype personnel.
+Chaque carte étudiante est entièrement cliquable, avec un seul lien HTML, sans JavaScript.
+Groupie Tracker et ASCII-ART utilisent la première capture de leur galerie actuelle sur leur carte d’accueil :
+catalogue-accueil.png et rendu-salut.png. L’encart Coach Go affiche sa première capture, coach-go/accueil.png.
+Les fiches Groupie Tracker et ASCII-ART se terminent par « Projet finalisé ».
+Forum présente publication avec stacks, réponses, votes sur posts et réponses, recherche et filtres.
+Pierre décrit son rôle de chef de projet, les versions et tâches, sa participation au backend, aux pages et au design,
+ainsi qu’aux sessions. Technologies : Go, HTML, CSS, SQLite, Git et Docker.
+Coauteurs : Abdou CHERIF HONO DIGO, Yohann FEDAOUI et Hicham HEE.
+Difficultés et solutions déclarées : choix de SQLite, gestionnaire de sessions serveur avec fichiers JSON, hachage bcrypt.
+Le résultat déclaré permet de communiquer entre membres ; modération, OAuth2 et profil restent des améliorations futures.
+« Finalisé à 90 % » est une estimation de Pierre, sans mesure ni audit indépendant. La date reste inconnue.
+Les trois images de forum.zip sont dans assets/projets/forum/ : accueil.png, post-reponses.png et publier-question.png.
+Elles disposent de légendes, textes alternatifs et liens grand format annonçant un nouvel onglet.
+Les exports sont forum-ordinateur.png, forum-mobile.png et forum-galerie.png.
+Sur l’accueil, le monogramme « PB » figure en haut à gauche et la carte Forum utilise sa première capture,
+assets/projets/forum/accueil.png, à la place de l’illustration. Les fiches projets conservent leur contenu.
+
+Groupie Tracker est renseigné comme projet finalisé en août 2026, avec contributions, coauteurs,
+fonctionnalités, technologies et outils, difficultés et solutions déclarés par Pierre.
+
+La galerie de Groupie Tracker contient les trois captures réelles fournies dans image groupie tracker.zip :
+une vue principale du catalogue, la fiche Genesis et une autre vue du catalogue. Les originaux sont conservés
+sans retouche ni recadrage dans assets/projets/groupie-tracker/. Chaque image dispose d’une légende,
+d’un texte alternatif et d’un lien vers sa taille originale ; l’ouverture dans un nouvel onglet est annoncée.
+Les exports projet-ordinateur.png, projet-mobile.png et le PDF présentent cette fiche actualisée.
+ASCII-ART est renseigné comme projet finalisé en juillet 2026, avec les modèles standard, shadow et thinkertoy,
+les exports TXT, Markdown et HTML, Go, HTML, CSS et Git, les contributions de Pierre, une difficulté et sa solution,
+et les coauteurs Maxime Fedaoui et Amélie Lematelot.
+La galerie affiche quatre originaux issus d’AsciiArt.zip, sans retouche ni recadrage, dans assets/projets/ascii-art/ :
+accueil.png, rendu-salut.png, rendu-hello-world.png et rendu-caracteres.png.
+Une image principale et trois vues complémentaires possèdent légendes, textes alternatifs et liens vers les originaux,
+avec ouverture dans un nouvel onglet annoncée. L’exemple textuel « Un exemple » conserve ses espacements ;
+son bloc monospace peut défiler horizontalement au clavier sur mobile.
+Les exports dédiés sont ascii-ordinateur.png, ascii-mobile.png et ascii-galerie.png. Le PDF contient aussi cette fiche.
+Les exports et la galerie de Groupie Tracker restent disponibles.
+Coach Go est un prototype personnel développé seul pour apprendre l’algorithmique et la programmation modulaire
+à son rythme. Il fonctionne localement, hors ligne, sous Linux Debian. Technologies déclarées :
+Go, HTML, CSS, Node.js, Wails et JavaScript. Wails fournit l’interface et CodeMirror l’éditeur,
+avec ses dépendances installées. L’existant comprend seulement le palier 1, un exercice « Ajuster » et des tests unitaires.
+La section « Stade d’avancement : prototype » présente cet existant. Les prochaines étapes sont : définir les notions
+et la difficulté du palier 1, ajouter des exercices à ce palier et réviser la charte graphique vers l’univers Go.
+La date de Coach Go reste inconnue ; son champ à compléter n’est plus affiché sur la fiche.
+Trois images de coach-golang.zip sont conservées dans assets/projets/coach-go/ : accueil.png et palier-1.png
+dans la galerie, exercice-ajuster.png dans le résultat, avec légendes, textes alternatifs et liens grand format
+annonçant un nouvel onglet. Les exports sont coach-ordinateur.png, coach-mobile.png et coach-galerie.png.
+Le PDF comprend douze pages et contient aussi cette fiche ; les exports Groupie Tracker et ASCII-ART restent disponibles.
+Aucun code du programme ni compteur de tests ou de variantes visible dans les captures n’a été validé.
+Aucun mécanisme de sécurisation non décrit ni résultat mesuré n’est inventé à partir de ces informations.
+
+Les cinq pages HTML et la feuille CSS forment une maquette statique, sans JavaScript ni application complète.
+Wails, Node.js et CodeMirror appartiennent au projet Coach Go présenté ; rien de cela n’est à installer pour lire le portfolio.
+Les données profil.json et projets.json ne sont pas chargées automatiquement par les pages.
+Les champs [À COMPLÉTER : …] restent à renseigner là où ils apparaissent.
+
+Le CV CV_Pierre_BASLEY_2026.pdf est fourni sans modification dans assets/cv/pierre-basley-cv.pdf.
+Son téléchargement et le lien e-mail sont actifs.
+Consulter SOURCES.md pour la provenance et les limites des informations.
+
+Le dépôt reste privé. Pour voir le prototype, télécharger tous les fichiers avec Code > Download ZIP sur GitHub,
+extraire le dossier complet, puis ouvrir maquette/index.html, maquette/projet-forum.html, maquette/projet-serveur.html,
+maquette/projet-ascii.html ou maquette/projet-coach.html dans un navigateur.
